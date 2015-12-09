@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Sample craft-cli Configuration file
- *
- * Rename this file to .craft-cli.php in your site root.
- */
-
 // Quit if this is not being requested via the CLI
 if (php_sapi_name() !== 'cli') {
     exit;

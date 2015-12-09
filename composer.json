@@ -1,6 +1,7 @@
 {
     "require": {
         "craft-cli/cli": "^0.1.0",
-        "itmundi/schematic": "^2.0"
+        "itmundi/schematic": "^2.0",
+        "vlucas/phpdotenv": "^2.1"
     }
 }
