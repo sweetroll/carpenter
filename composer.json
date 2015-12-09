@@ -1,0 +1,6 @@
+{
+    "require": {
+        "craft-cli/cli": "^0.1.0",
+        "itmundi/schematic": "^2.0"
+    }
+}
