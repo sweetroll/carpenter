@@ -14,6 +14,3 @@ if (file_exists($root_dir . '/.env')) {
       'CRAFT_SITENAME', 'CRAFT_SITEURL', 'CRAFT_LOCALE'
   ]);
 }
-
-// TODO
-// - Write DB credentials to db.php
