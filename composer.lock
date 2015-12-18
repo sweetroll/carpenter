@@ -4,21 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "86c70fd60996bd511e41b4503dbd6379",
-    "content-hash": "2f38fa6bf7b0a0e492f4fb438794625c",
+    "hash": "c5a3f2a03c05e802a3115cc8641651ee",
+    "content-hash": "a75171b3b66f38a48809f4aacbc48a2d",
     "packages": [
         {
             "name": "craft-cli/cli",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rsanchez/craft-cli.git",
-                "reference": "a92b2846a90909cf2af0c2efb6913c2066e846df"
+                "reference": "9421a705ff7b2a9f6ce22da62605709eec28288c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rsanchez/craft-cli/zipball/a92b2846a90909cf2af0c2efb6913c2066e846df",
-                "reference": "a92b2846a90909cf2af0c2efb6913c2066e846df",
+                "url": "https://api.github.com/repos/rsanchez/craft-cli/zipball/9421a705ff7b2a9f6ce22da62605709eec28288c",
+                "reference": "9421a705ff7b2a9f6ce22da62605709eec28288c",
                 "shasum": ""
             },
             "require": {
@@ -44,7 +44,7 @@
                 }
             ],
             "description": "Command line interface for Craft CMS",
-            "time": "2015-12-02 00:02:30"
+            "time": "2015-12-11 14:08:22"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -81,25 +81,31 @@
         },
         {
             "name": "itmundi/schematic",
-            "version": "2.0.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itmundi/schematic.git",
-                "reference": "5614d088d621c6f2e0eafefdf496d7aac1c0c82c"
+                "reference": "aad36c9329361c4a2afb7d1b5e511dbd75c42307"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itmundi/schematic/zipball/5614d088d621c6f2e0eafefdf496d7aac1c0c82c",
-                "reference": "5614d088d621c6f2e0eafefdf496d7aac1c0c82c",
+                "url": "https://api.github.com/repos/itmundi/schematic/zipball/aad36c9329361c4a2afb7d1b5e511dbd75c42307",
+                "reference": "aad36c9329361c4a2afb7d1b5e511dbd75c42307",
                 "shasum": ""
             },
             "require": {
+                "php": "^5.5|^7.0",
                 "symfony/yaml": "~2.8"
             },
             "bin": [
                 "bin/schematic"
             ],
             "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "NerdsAndCompany\\Schematic\\": "src/"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -143,7 +149,7 @@
                 }
             ],
             "description": "Craft setup and sync tool",
-            "time": "2015-12-07 12:26:51"
+            "time": "2015-12-16 10:11:48"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -690,16 +696,16 @@
         },
         {
             "name": "xamin/handlebars.php",
-            "version": "v0.10.2",
+            "version": "v0.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/XaminProject/handlebars.php.git",
-                "reference": "a47d7e0fb26d1da08475c1ffa40a86159a78ba69"
+                "reference": "5e1db1d1c7969fae32eab331a3b4d9b93257a709"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/XaminProject/handlebars.php/zipball/a47d7e0fb26d1da08475c1ffa40a86159a78ba69",
-                "reference": "a47d7e0fb26d1da08475c1ffa40a86159a78ba69",
+                "url": "https://api.github.com/repos/XaminProject/handlebars.php/zipball/5e1db1d1c7969fae32eab331a3b4d9b93257a709",
+                "reference": "5e1db1d1c7969fae32eab331a3b4d9b93257a709",
                 "shasum": ""
             },
             "require-dev": {
@@ -728,7 +734,7 @@
             ],
             "description": "Handlebars processor for php",
             "homepage": "https://github.com/XaminProject/handlebars.php",
-            "time": "2015-07-14 18:08:50"
+            "time": "2015-08-06 22:16:36"
         }
     ],
     "packages-dev": [],
