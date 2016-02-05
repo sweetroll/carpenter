@@ -1,6 +1,6 @@
 locales:
-  - en_us
-assets: {  }
+  - en
+assetSources: {  }
 fields:
   Default:
     body:
@@ -22,7 +22,7 @@ fields:
       settings:
         source: 'taggroup:1'
       context: global
-globals: {  }
+globalSets: {  }
 plugins: {  }
 sections:
   homepage:
@@ -33,7 +33,7 @@ sections:
     maxLevels: null
     enableVersioning: '1'
     locales:
-      en_us:
+      en:
         enabledByDefault: '1'
         urlFormat: __home__
         nestedUrlFormat: null
@@ -55,7 +55,7 @@ sections:
     maxLevels: null
     enableVersioning: '1'
     locales:
-      en_us:
+      en:
         enabledByDefault: '1'
         urlFormat: 'news/{postDate.year}/{slug}'
         nestedUrlFormat: null
@@ -74,4 +74,5 @@ userGroups: {  }
 users:
   fieldLayout:
     fields: {  }
+elementIndexSettings: {  }
 pluginData: {  }
