@@ -13,7 +13,7 @@ return array(
      * If you leave this blank, it will assume your
      * folder is <current directory>/craft
      */
-    'craft_path' => __DIR__.'/craft/craft',
+    // 'craft_path' => null,
 
     /**
      * Custom commands

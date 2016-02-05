@@ -3,12 +3,13 @@ Craft stack.
 
 ```bash
 composer install
-vendor/bin/craft install craft (agree to license)
-cp config/schema.yml craft/craft/config/schema.yml
-./vendor/bin/schematic import index --file=config/schema.yml --override_file=config/override.yml
+vendor/bin/craft install # (agree to license)
+cp config/db.php craft/config/db.php
+(eval `cat .env`; export CRAFT_BASE_PATH; php -d variables_order=EGPCS ./vendor/bin/schematic import index --file=config/schema.yml --override_file=config/override.yml)
+
 ```
 
+(eval `cat .env`; php -d variables_order=EGPCS ./vendor/bin/schematic import index --file=config/schema.yml --override_file=config/override.yml)
+
 ## TODO
-- Can craft-cli populate DB credentials from .env?
-- Have schematic read CRAFT_BASE_PATH from .craft.cli.yml
-- How can schematic use .env in general?
+- Should craftPath be set with the .env value as well? At the moment it is hardcoded.

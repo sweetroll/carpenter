@@ -3,6 +3,9 @@ vendor/*
 !vendor/.gitkeep
 
 # Craft core
-craft/
+/craft
+/public
+readme.txt
 
+#
 .env
