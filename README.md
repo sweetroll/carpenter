@@ -17,10 +17,9 @@ cp config/db.php craft/config/db.php
     export CRAFT_SITENAME;
     export CRAFT_SITEURL;
     export CRAFT_LOCALE;
-    php -d variables_order=EGPCS ./vendor/bin/schematic import
+    php -d variables_order=EGPCS ./vendor/bin/schematic import index --file=config/schema.yml --force
 )
 ```
-Append `--file=config/schema.yml` --force for custom schema
 
 ## TODO
 - Should craftPath be set with the .env value as well? At the moment it is hardcoded.
